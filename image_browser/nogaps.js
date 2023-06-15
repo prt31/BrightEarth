@@ -36,7 +36,8 @@ var num_casuale = Math.round(100*Math.random());
 const zeroPad = (num, places) => String(num).padStart(places, '0')
 
 function load_updated_image() {
-file='image_browser/'+area+'/'+area+'_step_'+zeroPad(tau,3)+'_India.png?'+num_casuale
+//file='image_browser/'+area+'/'+area+'_step_'+zeroPad(tau,3)+'_India.png?'+num_casuale
+file='image_browser/'+area+'/'+area+'_step_'+zeroPad(tau,3)+'_India.png'
 
 //console.log(zeroPad(tau,3))
 //console.log(file)
